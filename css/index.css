@@ -29,4 +29,39 @@
 .header-right > li >a{
     color: #FFFFFF;
 }
+.header-right > li:hover{
+    background: #ffffff;
+}
+.header-right > li:hover > a{
+    color:#ff0036;
+}
+.header-hover{
+    position: relative;
+}
+.hover-list{
+    width: 80px;
+    /* color: #000; */
+    /* background: #eee00e; */
+    line-height: 20px;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: 32px;
+    border: 1px solid #ccc;
+    border-top: none;
+    display: none;
+}
+.list-two{
+    width: 60px;
+}
+.hover-list > li > a{
+    color: #999;
+}
+.hover-list > li:hover >a{
+    color:#ff0036;
+    text-decoration: underline;
+}
+.header-hover:hover .hover-list{
+    display: block;
+}
 
