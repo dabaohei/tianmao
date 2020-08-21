@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+    /* 抗锯齿  */
+    -webkit-font-smoothing: antialiased;
+}
 .wrapper{
     background: #00ff00;
     margin: 0 auto;
@@ -12,4 +17,18 @@ a{
 }
 ul{
     list-style: none;
+}
+/* 三角箭头 */
+.arrow{
+    width: 0;
+    height: 0;
+    border: 3px solid transparent;
+    border-top: 3px solid #ccc;
+    /* 考虑兼容性 */
+    line-height: 0;
+    font-size: 0;
+    position: absolute;
+    right: 8px;
+    top: 15px;
+    transition:transform 0.2s linear
 }

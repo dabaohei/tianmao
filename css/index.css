@@ -26,8 +26,11 @@
 .header-right{
     float: right;
 }
+.header-right > li{
+    height: 33px;
+}
 .header-right > li >a{
-    color: #FFFFFF;
+    color: #ccc;
 }
 .header-right > li:hover{
     background: #ffffff;
@@ -64,4 +67,15 @@
 .header-hover:hover .hover-list{
     display: block;
 }
-
+.header-san{
+    position: relative;
+}
+/* 箭头旋转 */
+.header-san:hover .arrow{
+    transform: rotate(180deg);
+    transform-origin: 50% 25%;
+}
+/* .iconfont{
+    color: #eeeeee;
+} */
+/* header结束 */
