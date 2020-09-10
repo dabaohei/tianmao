@@ -141,3 +141,37 @@
     color:#ff0036;
 }
 /* search结束 */
+/* nav 开始  */
+.nav{
+    padding-left:340px;
+    width: 910px;
+    overflow: hidden;
+    /* background-color: aqua; */
+}
+.nav li{
+    float: left;
+}
+.nav li img{
+    width: 100px;
+    height: 30px;
+    margin-top:3px;
+}
+.nav li a{
+    color:#333;
+    font-size: 16px;
+    font-weight:500;
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    padding:0 8px;
+}
+/* nav结束 */
+/* 轮播图开始 */
+.slide-box{
+    height: 500px;
+    background: #ccc;
+    border-top: 2px solid #ff0036;
+}
+.slide-box .wrapper{
+    background-color: aqua;
+}
