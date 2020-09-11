@@ -173,5 +173,24 @@
     border-top: 2px solid #ff0036;
 }
 .slide-box .wrapper{
-    background-color: aqua;
+    height: 500px;
+    /* background-color: aqua; */
+    position: relative;
+}
+.menu-box{
+    height: 500px;
+    position: absolute;
+    top:-35px;
+    left:0px;
+    /* background: rgba(0,0,0,0.55); */
+}
+.menu-title{
+    width: 200px;
+    height: 35px;
+    background-color: #ff0036;
+}
+.main-list-box{
+    width: 200px;
+    height: 500px;
+    background: rgba(0,0,0,0.55);
 }
