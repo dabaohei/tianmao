@@ -350,3 +350,157 @@ body{
     height: 55px;
 }
 /* 品牌结束 */
+/* 品牌墙开始 */
+.brand-logo{
+    overflow: hidden;
+}
+.brand-logo-list{
+    width: 122px;
+    height: 108px;
+    background: #fff;
+    float: left;
+    text-align: center;
+    margin-right:1px ;
+    margin-bottom: 1px;
+    position: relative;
+}
+.brand-logo-list img{
+    width: 100px;
+    height: 50px;
+    margin-top:29px;
+}
+.logo-list-mask{
+    position: absolute;
+    left:0px;
+    top:0;
+    width: 122px;
+    height: 108px;
+    background: rgba(0,0,0,0.8);
+    opacity: 0;
+    transition: opacity 0.5s linear ;
+}
+.logo-mask-name{
+    color: #fff;
+    margin-top:35px;
+}
+.logo-mask-btn{
+    background: #ff0036;
+    color:#fff;
+    width: 63px;
+    height: 18px;
+    margin:10px auto 0px;
+    border-radius: 10px;
+}
+.brand-logo-list:hover .logo-list-mask{
+    opacity: 1;
+}
+/* 品牌墙结束 */
+/* 广告位开始 */
+.mart-head{
+    margin-top: 20px;
+    overflow: hidden;
+}
+.mart-head-logo{
+    width: 214px;
+    height: 25px;
+    float: left;
+}
+.mart-head-list{
+    float: right;
+}
+.mart-head-list li{
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    padding:5px 12px;
+}
+.mart-head-list a{
+    font-size: 14px; 
+    color: #000;
+    border-bottom:1px solid #f5f5f5;
+}
+.mart-head-list li:hover a{
+    border-bottom:1px solid #000;
+}
+.mart-body-img{
+    width: 235px;
+    height: 618px;
+}
+.banner-box{
+    position: relative;
+    float: left;
+}
+.banner-detail{
+    width: 218px;
+    height: 64px;
+    /* background: #ff0000; */
+    position: absolute;
+    left:0;
+    bottom: 120px;
+}
+.banner-detail-left{
+    width: 70px;
+    height: 64px;
+    float: left;
+    background: rgba(0,0,0,0.9);
+    font-size: 18px;
+    color:#fff;
+    box-sizing: border-box;
+    padding: 6px 10px 0 16px;
+}
+.banner-detail-right{
+    width: 148px;
+    height: 64px;
+    float:right;
+    background: rgba(0,0,0,0.6);
+    color:#fff;
+    font-size: 18px;
+    padding:6px 0 0 14px;
+    box-sizing: border-box;
+}
+/* 右侧列表 */
+.banner-list-box{
+    float: left;
+    width: 995px;
+}
+.banner-list{
+    width: 236px;
+    height: 302px;
+    float: left;
+    background: #fff;
+    margin-left:12.5px;
+    margin-bottom:15px;
+    padding:20px 25px;
+    box-sizing: border-box;
+    border:1px solid transparent;
+}
+.banner-list-1{
+    width: 484px;
+}
+.banner-list-img{
+    width: 185px;
+    height: 185px;
+}
+.banner-list:hover{
+    border:1px solid #ff0036;
+}
+.banner-list:hover  .banner-list-img{
+    opacity: 0.5;
+}
+.banner-list-des{
+    margin:8px 25px;
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+    color:#333;
+    font-size: 14px;
+}
+.banner-list-price{
+    text-align: center;
+    color:#ff0036;
+    font-size: 18px;
+}
+/* .header-login select{
+    color:#fff;
+    font-size: 12px;
+} */
